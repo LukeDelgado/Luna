@@ -1,0 +1,152 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.background
+{
+  background-image: url(/image/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+}
+
+body
+{
+    font-family: "Lexend";
+    display: flex;
+    background-color: black;
+}
+
+a
+{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+nav {
+  position: fixed;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 24px;
+}
+
+.navitems
+{
+  display: flex;
+  margin-inline: 1rem;
+}
+
+.navitems a
+{
+  display: flex;
+  margin-inline: 1rem;
+}
+
+
+.description {
+  width: 724px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  color: white;
+  font-size: 128px;
+}
+
+p
+{
+    font-family: "Lexend";
+    color: grey;
+    font-size: 20px;
+}
+
+.showcase
+{
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+  margin-right: 20rem;
+}
+
+.title
+{
+  display: flex;
+  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+}
+
+.luna
+{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-bottom: -1.5rem;
+}
+
+footer
+{
+  position: absolute;
+  bottom: 0;
+  margin: 1rem;
+  padding: none;
+}
+
+.title /* Flexbox */
+{
+  justify-content: center;
+  width: 85vw;
+  height: 85vh;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 5rem;
+  margin-left: 20rem;
+}
+
+.Table /* Flexbox */
+{
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  margin-right: 20rem;
+}
+
+.youtube-video
+{
+  justify-content: center;
+  display: flex;
+  margin-right: 20rem;
+  height: auto;
+  width: auto;
+  outline-style: none;
+}
+
+.founder
+{
+  border-radius: 10%;
+  margin: auto;
+}
