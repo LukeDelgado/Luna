@@ -62,7 +62,6 @@ nav {
   width: 724px;
 }
 
-
 h1,
 h2,
 h3,
@@ -149,4 +148,32 @@ footer
 {
   border-radius: 10%;
   margin: auto;
+}
+
+
+@media screen and (max-width:480px) {
+  h1 {
+    font-size: 80px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .title {
+    margin-left: 0;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:480px) {
+  nav {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .showcase {
+    display: flex;
+    flex-direction: column;
+  }
 }
